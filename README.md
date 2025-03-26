@@ -19,7 +19,7 @@ chat = model.start_chat(history=[])
 response = chat.send_message("In one sentence, explain how AI works to a child.")
 print(response.text)
 
-response = chat.send_message("Now explain it like I a Physics PhD student")
+response = chat.send_message("Now explain it like I am a Physics PhD student.")
 print(response.text)
 ```
 
